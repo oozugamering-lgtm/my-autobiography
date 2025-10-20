@@ -82,8 +82,12 @@
             max-width: 800px;
         }
 
-         html {
-        scroll-padding-top: 70px;
+        section::before {
+            content: "";
+            display: block;
+            height: 80px;
+            margin-top: -80px;
+            visibility: hidden;
         }
 
         section h2 {
